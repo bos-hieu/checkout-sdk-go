@@ -1,6 +1,7 @@
 package sources
 
 import (
+	"github.com/bos-hieu/checkout-sdk-go"
 	"github.com/bos-hieu/checkout-sdk-go/common"
 )
 

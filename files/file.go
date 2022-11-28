@@ -3,6 +3,7 @@ package files
 import (
 	"bytes"
 	"fmt"
+	"github.com/bos-hieu/checkout-sdk-go"
 	"io"
 	"mime/multipart"
 	"net/http"

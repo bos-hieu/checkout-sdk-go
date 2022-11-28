@@ -1,5 +1,7 @@
 package payments
 
+import "github.com/bos-hieu/checkout-sdk-go"
+
 // RefundsRequest ..
 type RefundsRequest struct {
 	Amount    uint64            `json:"amount,omitempty"`

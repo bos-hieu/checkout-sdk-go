@@ -1,6 +1,7 @@
 package disputes
 
 import (
+	"github.com/bos-hieu/checkout-sdk-go"
 	"time"
 
 	"github.com/bos-hieu/checkout-sdk-go/common"

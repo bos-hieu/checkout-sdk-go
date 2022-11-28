@@ -1,6 +1,7 @@
 package instruments
 
 import (
+	"github.com/bos-hieu/checkout-sdk-go"
 	"github.com/bos-hieu/checkout-sdk-go/common"
 	"github.com/bos-hieu/checkout-sdk-go/payments"
 )

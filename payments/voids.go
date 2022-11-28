@@ -1,5 +1,7 @@
 package payments
 
+import "github.com/bos-hieu/checkout-sdk-go"
+
 // VoidsRequest ...
 type VoidsRequest struct {
 	Reference string            `json:"reference,omitempty"`
