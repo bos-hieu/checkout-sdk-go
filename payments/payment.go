@@ -597,7 +597,7 @@ type (
 		ExpiryYear              uint64              `json:"expiry_year,omitempty"`
 		Name                    string              `json:"name,omitempty"`
 		Scheme                  string              `json:"scheme,omitempty"`
-		Last4                   string              `json:"last4,omitempty"`
+		Last4                   string              `json:"last_4,omitempty"`
 		Fingerprint             string              `json:"fingerprint,omitempty"`
 		Bin                     string              `json:"bin,omitempty"`
 		CardType                common.CardType     `json:"card_type,omitempty"`
@@ -628,7 +628,7 @@ type (
 		ExpiryMonth   uint64              `json:"expiry_month,omitempty"`
 		ExpiryYear    uint64              `json:"expiry_year,omitempty"`
 		Scheme        string              `json:"scheme,omitempty"`
-		Last4         string              `json:"last4,omitempty"`
+		Last4         string              `json:"last_4,omitempty"`
 		Fingerprint   string              `json:"fingerprint,omitempty"`
 		Bin           string              `json:"bin,omitempty"`
 		CardType      common.CardType     `json:"card_type,omitempty"`

@@ -86,7 +86,7 @@ type (
 		ExpiryMonth   uint64              `json:"expiry_month,omitempty"`
 		ExpiryYear    uint64              `json:"expiry_year,omitempty"`
 		Scheme        string              `json:"scheme,omitempty"`
-		Last4         string              `json:"last4,omitempty"`
+		Last4         string              `json:"last_4,omitempty"`
 		Bin           string              `json:"bin,omitempty"`
 		CardType      common.CardType     `json:"card_type,omitempty"`
 		CardCategory  common.CardCategory `json:"card_category,omitempty"`
