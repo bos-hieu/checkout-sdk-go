@@ -2,6 +2,7 @@ package customers
 
 import (
 	"fmt"
+	"github.com/bos-hieu/checkout-sdk-go"
 	"net/http"
 
 	"github.com/bos-hieu/checkout-sdk-go/httpclient"

@@ -1,6 +1,7 @@
 package client
 
 import (
+	"github.com/bos-hieu/checkout-sdk-go"
 	"github.com/bos-hieu/checkout-sdk-go/disputes"
 	"github.com/bos-hieu/checkout-sdk-go/events"
 	"github.com/bos-hieu/checkout-sdk-go/files"
