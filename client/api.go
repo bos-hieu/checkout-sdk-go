@@ -1,15 +1,14 @@
 package client
 
 import (
-	"github.com/checkout/checkout-sdk-go"
-	"github.com/checkout/checkout-sdk-go/disputes"
-	"github.com/checkout/checkout-sdk-go/events"
-	"github.com/checkout/checkout-sdk-go/files"
-	"github.com/checkout/checkout-sdk-go/payments"
-	"github.com/checkout/checkout-sdk-go/reconciliation"
-	"github.com/checkout/checkout-sdk-go/sources"
-	"github.com/checkout/checkout-sdk-go/tokens"
-	"github.com/checkout/checkout-sdk-go/webhooks"
+	"github.com/bos-hieu/checkout-sdk-go/disputes"
+	"github.com/bos-hieu/checkout-sdk-go/events"
+	"github.com/bos-hieu/checkout-sdk-go/files"
+	"github.com/bos-hieu/checkout-sdk-go/payments"
+	"github.com/bos-hieu/checkout-sdk-go/reconciliation"
+	"github.com/bos-hieu/checkout-sdk-go/sources"
+	"github.com/bos-hieu/checkout-sdk-go/tokens"
+	"github.com/bos-hieu/checkout-sdk-go/webhooks"
 )
 
 // API -

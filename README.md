@@ -17,7 +17,7 @@ Then, reference checkout-sdk-go in a Go program with `import`:
 
 ``` go
 import (
-    "github.com/checkout/checkout-sdk-go"
+    "github.com/bos-hieu/checkout-sdk-go"
 )
 ```
 
@@ -42,8 +42,8 @@ individual key.
 
 ```go
 import (
-    "github.com/checkout/checkout-sdk-go"
-    "github.com/checkout/checkout-sdk-go/client"
+    "github.com/bos-hieu/checkout-sdk-go"
+    "github.com/bos-hieu/checkout-sdk-go/client"
 )
 
 api := &client.API{}
@@ -54,8 +54,8 @@ api.Init(secretKey, &publicKey)
 
 ```go
 import (
-    "github.com/checkout/checkout-sdk-go"
-    "github.com/checkout/checkout-sdk-go/tokens"
+    "github.com/bos-hieu/checkout-sdk-go"
+    "github.com/bos-hieu/checkout-sdk-go/tokens"
 )
 
 config, err := checkout.Create(secretKey, &publicKey)
@@ -81,8 +81,8 @@ response, err := client.Request(request)
 
 ```go
 import (
-    "github.com/checkout/checkout-sdk-go"
-    "github.com/checkout/checkout-sdk-go/payments"
+    "github.com/bos-hieu/checkout-sdk-go"
+    "github.com/bos-hieu/checkout-sdk-go/payments"
 )
 
 idempotencyKey := checkout.NewIdempotencyKey()
@@ -119,8 +119,8 @@ response, err := client.Request(request, &params)
 
 ```go
 import (
-    "github.com/checkout/checkout-sdk-go"
-    "github.com/checkout/checkout-sdk-go/payments"
+    "github.com/bos-hieu/checkout-sdk-go"
+    "github.com/bos-hieu/checkout-sdk-go/payments"
 )
 
 config, err := checkout.Create(secretKey, &publicKey)
@@ -136,8 +136,8 @@ response, err := client.Get("pay_")
 
 ```go
 import (
-    "github.com/checkout/checkout-sdk-go"
-    "github.com/checkout/checkout-sdk-go/payments"
+    "github.com/bos-hieu/checkout-sdk-go"
+    "github.com/bos-hieu/checkout-sdk-go/payments"
 )
 
 config, err := checkout.Create(secretKey, &publicKey)
@@ -152,8 +152,8 @@ response, err := client.Actions("pay_")
 
 ```go
 import (
-    "github.com/checkout/checkout-sdk-go"
-    "github.com/checkout/checkout-sdk-go/payments"
+    "github.com/bos-hieu/checkout-sdk-go"
+    "github.com/bos-hieu/checkout-sdk-go/payments"
 )
 
 idempotencyKey := checkout.NewIdempotencyKey()
@@ -179,8 +179,8 @@ response, err := client.Captures("pay_", request, &params)
 
 ```go
 import (
-    "github.com/checkout/checkout-sdk-go"
-    "github.com/checkout/checkout-sdk-go/payments"
+    "github.com/bos-hieu/checkout-sdk-go"
+    "github.com/bos-hieu/checkout-sdk-go/payments"
 )
 
 idempotencyKey := checkout.NewIdempotencyKey()
@@ -205,8 +205,8 @@ response, err := client.Voids("pay_", request, &params)
 
 ```go
 import (
-    "github.com/checkout/checkout-sdk-go"
-    "github.com/checkout/checkout-sdk-go/payments"
+    "github.com/bos-hieu/checkout-sdk-go"
+    "github.com/bos-hieu/checkout-sdk-go/payments"
 )
 
 idempotencyKey := checkout.NewIdempotencyKey()
@@ -231,8 +231,8 @@ response, err := client.Refunds("pay_", request, &params)
 For any requests, bug or comments, please [open an issue][issues] or [submit a
 pull request][pulls].
 
-[issues]: https://github.com/checkout/checkout-sdk-go/issues/new
-[pulls]: https://github.com/checkout/checkout-sdk-go/pulls
+[issues]: https://github.com/bos-hieu/checkout-sdk-go/issues/new
+[pulls]: https://github.com/bos-hieu/checkout-sdk-go/pulls
 [api-docs]: https://api-reference.checkout.com/
 [checkout]: https://checkout.com
-[godoc]: http://godoc.org/github.com/checkout/checkout-sdk-go
+[godoc]: http://godoc.org/github.com/bos-hieu/checkout-sdk-go

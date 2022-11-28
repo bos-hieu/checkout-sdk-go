@@ -1,7 +1,5 @@
 package payments
 
-import "github.com/checkout/checkout-sdk-go"
-
 // CapturesRequest ..
 type CapturesRequest struct {
 	Amount    uint64            `json:"amount,omitempty"`
